@@ -1,6 +1,6 @@
 /** First Wollok example */
 object wollok {
 	method howAreYou() {
-		return 'cambio realizado en wl web git'
+		return 'cambio realizado en wl web git2'
 	}
 }
