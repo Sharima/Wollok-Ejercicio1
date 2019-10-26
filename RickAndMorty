@@ -1,0 +1,48 @@
+object rick {
+	var property acompaniante
+	var property nivelDemencia
+	var property irAventura
+	
+	method aumentaDemencia(cantidad){
+		nivelDemencia =+ cantidad
+	}
+	
+	method disminuyeDemencia(cantidad){
+		nivelDemencia =- cantidad
+	}
+}
+
+object morty {
+	var property saludMental
+	var property irAventura
+	
+	method irseDeAventura(){
+		saludMental =- 30
+		rick.aumentaDemencia(50)
+	}
+}
+
+object beth {
+	var property afectoPadre
+	var property irAventura
+	
+	method irseDeAventura(){
+		afectoPadre =- 10
+		rick.disminuyeDemencia(20)
+	}	
+}
+
+object summer {
+	var property afectoPadre
+	var property irAventura
+	
+	method irseDeAventura(){
+		afectoPadre =- 10
+		rick.disminuyeDemencia(20)
+	}	
+}
+
+object jerry {
+	var property irAventura
+		
+}
